@@ -30,4 +30,18 @@
 
 - Viết script xác định libc base
 
-- 
+<img width="2336" height="786" alt="image" src="https://github.com/user-attachments/assets/ed20426f-56ab-4cb5-875f-aad736488abd" />
+
+- Dùng one_gadget -> offset và constraints
+
+<img width="829" height="254" alt="image" src="https://github.com/user-attachments/assets/cbed1248-e903-4fe6-adcb-8f532d4c11ef" />
+
+- Viết payload nhảy đến one_gadget, lưu ý có check giá trị bằng 0 tại [rbp-8]
+
+### SCRIPT :
+
+<img width="1168" height="1364" alt="image" src="https://github.com/user-attachments/assets/d10be8eb-aebb-4a4a-abb0-723f6ac540c5" />
+
+# 4. Get Flag :
+
+<img width="991" height="130" alt="image" src="https://github.com/user-attachments/assets/b91f85a0-b27a-4bbb-b473-988ec553286b" />
